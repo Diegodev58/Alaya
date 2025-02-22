@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(135, 130, 129);
     max-width: calc(100% - 20px);
 }
 
@@ -52,7 +53,7 @@ nav img{
 
 
 .contenedor li:hover{
-    box-shadow: 8px 8px 8px;
+    box-shadow: 5px 5px 5px;
     transform: scale(1.2);
     
 }
