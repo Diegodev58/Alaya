@@ -33,7 +33,7 @@ nav img{
     grid-gap: 1rem;
     justify-content: center;
     padding: 20px;
-    border-radius: 25px;
+    
     
 }
 
@@ -49,6 +49,7 @@ nav img{
     width: calc(100% - 30px);
     justify-items: center;
     transition: 0.5s;
+    border-radius: 25px;
 }
 
 
