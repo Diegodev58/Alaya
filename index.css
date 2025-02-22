@@ -1,5 +1,4 @@
 body{
-    background-color: black;
     max-width: calc(100% - 20px);
 }
 
@@ -33,6 +32,7 @@ nav img{
     grid-gap: 1rem;
     justify-content: center;
     padding: 20px;
+    border-radius: 10px 0 10px 0;
     
 }
 
