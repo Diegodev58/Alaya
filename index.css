@@ -62,6 +62,7 @@ nav img{
 .contenedor img{
     max-width: 100%;
     align-items: center;
+    border-radius: 25px;
 
 }
 
