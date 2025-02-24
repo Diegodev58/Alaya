@@ -32,9 +32,7 @@ nav img{
 
 .contenedor ul{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
-    
-    
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     justify-content: center;
     padding: 20px;
@@ -67,7 +65,7 @@ nav img{
 }
 
 .contenedor img{
-    width: 10%;
+    max-width: 100%;
     
     align-items: center;
     border-radius: 20px 0 20px 0;
