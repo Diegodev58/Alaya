@@ -1,10 +1,3 @@
-
-
-
-function comprar() {
-    let url = "https://wa.me/+584129627765?text=Hola Para Pedir Información"
-    window.location.href = url
-}
 let button = document.querySelector('button');
 button.addEventListener('click', function () {
     comprar(); // Llama a la función comprar
@@ -12,7 +5,56 @@ button.addEventListener('click', function () {
 
 
 
+function comprar() {
+    let url = "https://wa.me/+584129627765?text=Hola Para Pedir Información"
+    window.location.href = url
+}
+
+
+//anillos 
 const articulosAnillos = [
+    {
+        Imagen: "producto/Anillo-clavo-dorado.jpg",
+        Nombre: "Anillos de oro chino",
+        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
+        Precio: "Precio 2,5$"
+    },
+    {
+        Imagen: "producto/Anillo-Dorado.jpg",
+        Nombre: "Anillos de oro chino",
+        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
+        Precio: "Precio 2,5$"
+    },
+    {
+        Imagen: "producto/Anillo-modelo1-dorado.jpg",
+        Nombre: "Anillos de oro chino",
+        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
+        Precio: "Precio 2,5$"
+    },
+    {
+        Imagen: "producto/Anillo-modelo1-plaeado.jpg",
+        Nombre: "Anillos de oro chino",
+        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
+        Precio: "Precio 2,5$"
+    },
+    {
+        Imagen: "producto/Anillo-modelo2-dorado.jpg",
+        Nombre: "Anillos de oro chino",
+        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
+        Precio: "Precio 2,5$"
+    },
+    {
+        Imagen: "producto/Anillo-modelo3-dorado.jpg",
+        Nombre: "Anillos de oro chino",
+        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
+        Precio: "Precio 2,5$"
+    },
+    {
+        Imagen: "producto/Anillo-modelo4-dorado.jpg",
+        Nombre: "Anillos de oro chino",
+        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
+        Precio: "Precio 2,5$"   
+    },
     {
         Imagen: "producto/Anillo-t-dorado.jpg",
         Nombre: "Anillos de oro chino",
@@ -20,31 +62,7 @@ const articulosAnillos = [
         Precio: "Precio 2,5$"
     },
     {
-        Imagen: "producto/IMG-20250211-WA0020.jpg",
-        Nombre: "Anillos de oro chino",
-        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
-        Precio: "Precio 2,5$"
-    },
-    {
-        Imagen: "producto/IMG-20250211-WA0019.jpg",
-        Nombre: "Anillos de oro chino",
-        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
-        Precio: "Precio 2,5$"
-    },
-    {
-        Imagen: "producto/IMG-20250211-WA0018.jpg",
-        Nombre: "Anillos de oro chino",
-        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
-        Precio: "Precio 2,5$"
-    },
-    {
-        Imagen: "producto/IMG-20250211-WA0023.jpg",
-        Nombre: "Anillos de oro chino",
-        Descripcion: "Disfruta de tu vida, con la mejor calidad.",
-        Precio: "Precio 2,5$"
-    },
-    {
-        Imagen: "producto/IMG-20250211-WA0022.jpg",
+        Imagen: "producto/Anillo.modelo2-plateado.jpg",
         Nombre: "Anillos de oro chino",
         Descripcion: "Disfruta de tu vida, con la mejor calidad.",
         Precio: "Precio 2,5$"
@@ -63,7 +81,9 @@ for (let i of articulosAnillos) {
         let descripcion = document.createElement('p');
         let precio = document.createElement('p');
         let button = document.createElement('button');
-        button.textContent = 'Comprar'; // Texto del botón
+        button.textContent = 'Comprar';
+        button.addEventListener('click', comprar);
+        // Texto del botón
         //agragamos clase
         divli.classList.add("li");
         //creamos el texto que le vamos a agragar
