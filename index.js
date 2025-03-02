@@ -15,7 +15,7 @@ function pulse(){
 }
 
 function Argollas(){
-    let url = "#"
+    let url = "Argollas/index.html"
     window.location.href = url
 }
 

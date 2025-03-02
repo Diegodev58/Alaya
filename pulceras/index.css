@@ -28,46 +28,42 @@ nav img{
     font-size: 50px;
 }
 
-.contenedor ul{
+
+
+.contenedor{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
-    justify-content: center;
-    padding: 20px;
-    
-    
-}
-
-.contenedor li{
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 5px;
-    text-align: center;
-    margin: 20px;
-    border-radius: 5px;
-    list-style: none;
-    max-width: 50%;
-    width: calc(100% - 30px);
-    justify-items: center;
-    transition: 0.5s;
-    border-radius: 20px 0 20px 0;
-}
-
-
-.contenedor li:hover{
-    box-shadow: 5px 5px 5px;
-    transform: scale(1.2);
-    
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(7, 0, 0);
+    padding: 10px;
+    width: 100%;
 }
 
 .contenedor img{
-    max-width: 100%;
-    align-items: center;
-    border-radius: 20px 0 20px 0;
-
+    width: 100%;
+    height: 100%;
 }
 
-.contenedor a{
+.li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    background: wheat;
+    max-width: calc(100% - 20px);
+    border-radius: 25px 0 25px 0;
+    transition: all 0.5s ease;
+}
+
+.li:hover{
+    transform: rotate3d(1,2);
+    box-shadow: 5px 5px 10px 5px #000;
+    border: #000 solid 2px;
+}
+
+.a{
     border: 2px solid rgb(47, 255, 5);
     color: rgb(0, 0, 0);
     background-color:rgb(47, 255, 5);
@@ -76,9 +72,11 @@ nav img{
     padding: 5px;
 }
 
-.contenedor a:hover{
+.a:hover{
     transform: rotate3d(1,2);
 }
+
+
 
 article button{
     margin: 10px;
@@ -96,9 +94,16 @@ article button:hover{
     background-color: #555;
 }
 
+
 footer{
+    display: flow-root;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    
     background-color: black;
     color: white;
     text-align: center;
     padding: 1%;
 }
+
