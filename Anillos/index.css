@@ -63,6 +63,11 @@ nav img{
     border: #000 solid 2px;
 }
 
+.li img{
+    border-radius: 20px 0 20px 0;
+    
+}
+
 .a{
     border: 2px solid rgb(47, 255, 5);
     color: rgb(0, 0, 0);
