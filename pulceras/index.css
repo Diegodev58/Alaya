@@ -75,7 +75,7 @@ nav img{
 
 .a:hover{
     transform: rotate3d(1,2);
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .li img{

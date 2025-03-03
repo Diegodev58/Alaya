@@ -61,7 +61,7 @@ nav img{
     transform: rotate3d(1,2);
     box-shadow: 5px 5px 10px 5px #000;
     border: #000 solid 2px;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .li img{
